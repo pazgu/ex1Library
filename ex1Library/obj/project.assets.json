@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pazgu\\Desktop\\ex1Library\\ex1Library\\ex1Library.csproj",
+      "projectUniqueName": "C:\\Users\\pazgu\\Desktop\\תכנות מתקדם\\ex1Library\\ex1Library\\ex1Library.csproj",
       "projectName": "ex1Library",
-      "projectPath": "C:\\Users\\pazgu\\Desktop\\ex1Library\\ex1Library\\ex1Library.csproj",
+      "projectPath": "C:\\Users\\pazgu\\Desktop\\תכנות מתקדם\\ex1Library\\ex1Library\\ex1Library.csproj",
       "packagesPath": "C:\\Users\\pazgu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pazgu\\Desktop\\ex1Library\\ex1Library\\obj\\",
+      "outputPath": "C:\\Users\\pazgu\\Desktop\\תכנות מתקדם\\ex1Library\\ex1Library\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pazgu\\AppData\\Roaming\\NuGet\\NuGet.Config",

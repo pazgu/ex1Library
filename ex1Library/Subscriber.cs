@@ -12,7 +12,7 @@ namespace ex1Library
         private string lastName;
         private Book[] subscriberBooks = new Book[3];
         private int numberOfLoanPaperBooks;
-
+        
         public Subscriber(string firstName, string lastName, Book[] subscriberBooks) 
         {
             this.firstName = firstName;
@@ -55,7 +55,13 @@ namespace ex1Library
         }
         public int getNumberOfLoanPaperBooks()
         {
-            return this.numberOfLoanPaperBooks;
+            if (numberOfLoanPaperBooks< 4) { //The number of loaned books will be limited to 3. If it won't, the number of loaded books will reset to 0.
+                return this.numberOfLoanPaperBooks;
+            }
+            else {
+                numberOfLoanPaperBooks=0;
+                return this.numberOfLoanPaperBooks;
+            }
         }
         public void setNumberOfLoanPaperBooks(int numberOfLoanPaperBooks)
         {
@@ -75,8 +81,6 @@ namespace ex1Library
         {
             return this.firstName + ", " + this.lastName;
         }
-        
-
     }
 }
 

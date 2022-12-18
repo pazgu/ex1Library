@@ -34,7 +34,7 @@ namespace ex1Library
                 Console.WriteLine("Please enter the book genre name: ");
                 bookGenre = Console.ReadLine();
                 bool isBookGenreNumeric = bookGenre.Any(char.IsDigit);
-                if ((isFileSizeDouble) && (!isBookTitleNumeric) && (!isBookAuthorNumeric) && (!isBookAuthorNumeric) && (fileSize != null) && (bookTitle != "") && (bookAuthor != "") && (bookGenre != ""))
+                if ((isFileSizeDouble) && (!isBookTitleNumeric) && (!isBookAuthorNumeric) && (!isBookGenreNumeric) && (fileSize != null) && (bookTitle != "") && (bookAuthor != "") && (bookGenre != ""))
                 { //Continue just if the input is NaN and not empty. 
                     Book newDigitalBook = new DigitalBook(fileSize, bookTitle, bookAuthor, bookGenre);
                     for (int i = 0; i < books.Length; i++)
@@ -185,7 +185,7 @@ namespace ex1Library
                                         foundBook = true;
                                         if (books[j] is PaperBook)
                                         {
-                                            paperbook = (PaperBook)books[j];
+                                            paperbook = (PaperBook)books[j]; //I added this vairable so I could get an access to paperbook functions 
                                             if (paperbook.getCopiesNumber() <= 0)
                                             {
                                                 Console.WriteLine("All copies of the book are already taken.");
@@ -275,20 +275,20 @@ namespace ex1Library
                                 {
                                     if (books[j].Equals(book)) // Checking if book exists and if it's paper book it will decrease the number of copies.
                                     {
-                                        foundBook = true;
-                                        if (books[j] is PaperBook)
-                                        {
-                                            paperbook = (PaperBook)books[j];
-                                            paperbook.increaseCopiesNumber();
-                                            subscribers[i].setNumberOfLoanPaperBooks(subscribers[i].getNumberOfLoanPaperBooks() - 1); // number of loan books of subscriber will decrease 
-                                        }
+                                        foundBook = true;                 
                                         Book[] subscriberBooks = subscribers[i].getSubscriberBooks(); //Now we need to remove the loaned book from the subscriber's array of books
                                         for (int k = 0; k < subscriberBooks.Length; k++)
                                         {
                                             if (subscriberBooks[k] != null && subscriberBooks[k].Equals(book))
                                             {
+                                                if (books[j] is PaperBook)
+                                                {
+                                                    paperbook = (PaperBook)books[j];
+                                                    paperbook.increaseCopiesNumber();
+                                                    subscribers[i].setNumberOfLoanPaperBooks(subscribers[i].getNumberOfLoanPaperBooks() - 1); // number of loan books of subscriber will decrease 
+                                                }
                                                 subscriberBooks[k] = null;
-                                                foundBookInSubscriber = true;
+                                                foundBookInSubscriber = true;                                               
                                                 break;
                                             }
                                         }

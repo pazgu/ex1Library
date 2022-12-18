@@ -13,3 +13,18 @@ C:\Users\pazgu\Desktop\ex1Library\ex1Library\obj\Debug\net6.0\refint\ex1Library.
 C:\Users\pazgu\Desktop\ex1Library\ex1Library\obj\Debug\net6.0\ex1Library.pdb
 C:\Users\pazgu\Desktop\ex1Library\ex1Library\obj\Debug\net6.0\ex1Library.genruntimeconfig.cache
 C:\Users\pazgu\Desktop\ex1Library\ex1Library\obj\Debug\net6.0\ref\ex1Library.dll
+C:\Users\pazgu\Desktop\תכנות מתקדם\ex1Library\ex1Library\bin\Debug\net6.0\ex1Library.exe
+C:\Users\pazgu\Desktop\תכנות מתקדם\ex1Library\ex1Library\bin\Debug\net6.0\ex1Library.deps.json
+C:\Users\pazgu\Desktop\תכנות מתקדם\ex1Library\ex1Library\bin\Debug\net6.0\ex1Library.runtimeconfig.json
+C:\Users\pazgu\Desktop\תכנות מתקדם\ex1Library\ex1Library\bin\Debug\net6.0\ex1Library.dll
+C:\Users\pazgu\Desktop\תכנות מתקדם\ex1Library\ex1Library\bin\Debug\net6.0\ex1Library.pdb
+C:\Users\pazgu\Desktop\תכנות מתקדם\ex1Library\ex1Library\obj\Debug\net6.0\ex1Library.csproj.AssemblyReference.cache
+C:\Users\pazgu\Desktop\תכנות מתקדם\ex1Library\ex1Library\obj\Debug\net6.0\ex1Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pazgu\Desktop\תכנות מתקדם\ex1Library\ex1Library\obj\Debug\net6.0\ex1Library.AssemblyInfoInputs.cache
+C:\Users\pazgu\Desktop\תכנות מתקדם\ex1Library\ex1Library\obj\Debug\net6.0\ex1Library.AssemblyInfo.cs
+C:\Users\pazgu\Desktop\תכנות מתקדם\ex1Library\ex1Library\obj\Debug\net6.0\ex1Library.csproj.CoreCompileInputs.cache
+C:\Users\pazgu\Desktop\תכנות מתקדם\ex1Library\ex1Library\obj\Debug\net6.0\ex1Library.dll
+C:\Users\pazgu\Desktop\תכנות מתקדם\ex1Library\ex1Library\obj\Debug\net6.0\refint\ex1Library.dll
+C:\Users\pazgu\Desktop\תכנות מתקדם\ex1Library\ex1Library\obj\Debug\net6.0\ex1Library.pdb
+C:\Users\pazgu\Desktop\תכנות מתקדם\ex1Library\ex1Library\obj\Debug\net6.0\ex1Library.genruntimeconfig.cache
+C:\Users\pazgu\Desktop\תכנות מתקדם\ex1Library\ex1Library\obj\Debug\net6.0\ref\ex1Library.dll
